@@ -1,0 +1,65 @@
+2023-03-07 09:37:27,930 - INFO - log.py - __init__ - 26 - test1
+2023-03-07 09:51:33,896 - INFO - log.py - __init__ - 27 - test1
+2023-03-07 09:51:33,925 - INFO - log.py - info - 35 - 路由: [('/register/?', <class 'zcr.controllers.account.RegisterHandler'>), ('/login/?', <class 'zcr.controllers.account.LoginHandler'>)]
+2023-03-07 10:10:20,936 - INFO - log.py - __init__ - 27 - test1
+2023-03-07 10:10:41,137 - INFO - log.py - __init__ - 27 - test1
+2023-03-07 10:10:41,137 - INFO - log.py - info - 35 - test2
+2023-03-07 10:10:41,163 - INFO - log.py - info - 35 - 路由: [('/register/?', <class 'zcr.controllers.account.RegisterHandler'>), ('/login/?', <class 'zcr.controllers.account.LoginHandler'>)]
+2023-03-07 10:17:23,846 - INFO - log.py - __init__ - 27 - test1
+2023-03-07 11:16:24,169 - INFO - log.py - __log - 43 - test1
+2023-03-07 11:16:24,170 - INFO - log.py - __log - 43 - test2
+2023-03-07 11:16:24,170 - INFO - log.py - __log - 43 - test2
+2023-03-07 14:06:33,576 - INFO - log.py - __log - 49 - test1
+2023-03-07 14:06:33,576 - INFO - log.py - __log - 49 - test2
+2023-03-07 14:08:01,609 - INFO - log.py - __log - 50 - test1
+2023-03-07 14:08:01,609 - INFO - log.py - __log - 50 - test2
+2023-03-07 14:09:31,190 - INFO - log.py - __log - 50 - test1
+2023-03-07 14:09:31,190 - INFO - log.py - __log - 50 - test2
+2023-03-07 14:09:55,486 - INFO - log.py - __log - 51 - test1
+2023-03-07 14:09:55,486 - INFO - log.py - __log - 51 - test2
+2023-03-07 14:17:18,392 - INFO - log.py - __log - 51 - test1
+2023-03-07 14:17:18,392 - INFO - log.py - __log - 51 - test2
+2023-03-07 14:38:29,726 - INFO - test1
+2023-03-07 14:41:50,582 - INFO - test1
+2023-03-07 14:41:50,582 - INFO - test2
+2023-03-07 14:43:02,428 - INFO - test1
+2023-03-07 14:43:02,428 - INFO - test2
+2023-03-07 14:54:39,947 - INFO - test1
+2023-03-07 14:54:39,947 - INFO - test2
+2023-03-07 14:55:20,884 - INFO - test1
+2023-03-07 14:55:20,884 - INFO - test2
+2023-03-07 14:56:51,925 - INFO - test1
+2023-03-07 14:56:51,925 - INFO - test2
+2023-03-07 14:59:35,657 - INFO - test1
+2023-03-07 14:59:35,658 - INFO - test2
+2023-03-07 15:00:23,644 - INFO - test1
+2023-03-07 15:00:23,645 - INFO - test2
+2023-03-07 15:00:47,707 - INFO - test1
+2023-03-07 15:00:47,707 - INFO - test2
+2023-03-07 15:03:33,995 - INFO - test1
+2023-03-07 15:03:33,996 - INFO - test2
+2023-03-07 15:04:05,877 - INFO - test1
+2023-03-07 15:04:05,878 - INFO - test2
+2023-03-07 15:04:16,306 - INFO - test1
+2023-03-07 15:04:16,306 - INFO - test2
+2023-03-07 15:04:23,858 - INFO - test1
+2023-03-07 15:04:23,858 - INFO - test2
+2023-03-07 15:04:43,691 - INFO - test1
+2023-03-07 15:04:43,692 - INFO - test2
+2023-03-07 15:04:56,921 - INFO - test1
+2023-03-07 15:04:56,922 - INFO - test2
+2023-03-07 15:05:10,252 - INFO - test1
+2023-03-07 15:05:10,252 - INFO - test2
+2023-03-07 15:13:23,131 - INFO - test1 - webserver.py - init_logging - 20
+2023-03-07 15:13:23,132 - INFO - test2 - webserver.py - init_logging - 21
+2023-03-07 15:14:31,857 - INFO -  - webserver.py - init_logging - 20test1
+2023-03-07 15:14:31,859 - INFO -  - webserver.py - init_logging - 21test2
+2023-03-07 15:14:50,879 - INFO - webserver.py - init_logging - 20test1
+2023-03-07 15:14:50,880 - INFO - webserver.py - init_logging - 21test2
+2023-03-07 15:15:31,746 - INFO - webserver.py - init_logging - 20-test1
+2023-03-07 15:15:31,747 - INFO - webserver.py - init_logging - 21-test2
+2023-03-07 15:15:40,392 - INFO - webserver.py - init_logging - 20 - test1
+2023-03-07 15:15:40,393 - INFO - webserver.py - init_logging - 21 - test2
+2023-03-07 15:17:26,420 - INFO - webserver.py - init_logging - 20 - test1
+2023-03-07 15:17:26,421 - INFO - webserver.py - init_logging - 21 - test2
+2023-03-07 15:17:26,452 - INFO - routes.py - load - 17 - 路由: [('/register/?', <class 'zcr.controllers.account.RegisterHandler'>), ('/login/?', <class 'zcr.controllers.account.LoginHandler'>)]
