@@ -1,6 +1,7 @@
 import json
 import tornado.web
 
+from zcr.config.settings import settings
 from zcr.core.status import Code, Message
 from zcr.util.token import jwt_decode
 
@@ -19,9 +20,8 @@ class BaseHandler(tornado.web.RequestHandler):
 		if not token:
 			self._current_user = None
 			return None
-		settings = self.application.settings
-		payload = jwt_decode(token, settings['token_secret_key'],
-							 verify_exp=settings['token_verify_expire'])
+		payload = jwt_decode(token, settings.TORNADO_CONF.token_secret,
+							 verify_exp=settings.TORNADO_CONF.token_expire_days)
 		if not payload or not payload.get('data'):
 			self._current_user = None
 			return None

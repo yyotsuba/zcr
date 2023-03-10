@@ -43,5 +43,19 @@ CELERY_CONF = {
     "task_result_expires": 24 * 60 * 60,
     "include": [
         "zcr.service.user",
+        "zcr.service.conference"
     ],
+}
+
+
+# 缓存配置
+CACHES_CONF = {
+    "default_redis": {
+        "BACKEND": "zcr.cache.backends.redis_cache.RedisCache",
+        "SERVER": "localhost:6379",
+        "OPTIONS": {
+            "DB": 2,
+            "MAX_CONNECTIONS": 100,
+        }
+    }
 }

@@ -8,7 +8,7 @@ class Code:
 		TOKEN_INVALID = 110003
 		USER_IS_EXIST = 110004
 
-	class Session:
+	class Conference:
 		PRIOD_EXIST = 12001
 
 class Message:
@@ -21,5 +21,5 @@ class Message:
 		TOKEN_INVALID = "Token无效!"
 		USER_IS_EXIST = "该用户已存在，请直接登录!"
 	
-	class Session:
+	class Conference:
 		PRIOD_EXIST = "该时间段已预约，请重新选择时间段"

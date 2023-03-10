@@ -1,4 +1,8 @@
+import logging
 import functools
+import time
+
+from zcr.core.log import Log
 from zcr.core.status import Code, Message
 from zcr.models.base import MysqlGlobal
 
@@ -27,8 +31,19 @@ def jwt_auth(method):
 	return wrapper
 
 def mysql_session(method):
-    @functools.wraps(method)
-    def wrapper(*args, **kwargs):
-        session = MysqlGlobal().mysql_session
-        return method(session, *args, **kwargs)
-    return wrapper
+	@functools.wraps(method)
+	def wrapper(*args, **kwargs):
+		session = MysqlGlobal().mysql_session
+		return method(session, *args, **kwargs)
+	return wrapper
+
+def timer(func):
+	@functools.wraps(func)
+	def wrap(*args, **kwargs):
+		begin_time = time.perf_counter()
+		result = func(*args, **kwargs)
+		end_time = time.perf_counter()
+		Log.log_show_store(f'func:{func.__name__} args:[args, kwargs] took: \
+						   {end_time - begin_time} sec', logging.DEBUG)
+		return result
+	return wrap

@@ -7,6 +7,9 @@ import time
 
 STD_LEVEL = logging.DEBUG
 
+INFO = logging.INFO
+DEBUG = logging.DEBUG
+
 class Log(object):
 	instance = None
 	handlers = {logging.DEBUG: None, logging.INFO: None, logging.WARNING: None, logging.ERROR: None}
